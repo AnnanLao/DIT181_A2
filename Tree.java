@@ -226,7 +226,7 @@ class Tree<Item extends Comparable<Item>> {
 	 * tree in depth-first order
 	 */
 	public String DFSToString() {
-		Stack<Node<Item>> stack = new Stack<Node<Item>>(); // 借助stack
+		Stack<Node<Item>> stack = new Stack<Node<Item>>(); // via stack
 		if (root == null)
 			return "";
 		String result = "";
